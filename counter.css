@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'TTHakgyoansimMabeopsaR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMabeopsaR.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  text-align: center;
+  display: inline-block;
+}
+
+.title {
+  font-family: 'TTHakgyoansimMabeopsaR';
+  font-size: 30px;
+  position: absolute;
+  top: 200px;
+  left: 330px;
+}
+
+.container .wrap_text {
+  position: absolute;
+  display: inline-block;
+  top: 500px;
+  left: 305px;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.container .wrap_text .more {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+
+.container .wrap_text .more:hover {
+  padding: 5px 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.smartphone_img {
+  width: 800px;
+}
+
+h1 {
+  font-family: 'TTHakgyoansimMabeopsaR';
+  color: #0b073a;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.wow {
+  width: 200px;
+  height: 500px;
+}
+
+.wow_img {
+  position: absolute;
+  top: 230px;
+  left: 250px;
+  max-width: 500px; /* 이미지의 최대 너비를 500px로 제한 */
+  transform: scale(0.7); /* 이미지 크기를 반으로 축소 */
+}
+
+.btn {
+  font-family: 'TTHakgyoansimMabeopsaR';
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  border-width: 3px;
+  background-color: #0b073a;
+}
